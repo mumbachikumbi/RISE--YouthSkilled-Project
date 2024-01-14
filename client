@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Client site</title>
+    </head>
+    <body>
+        <h1>WELCOME TO THE CLIENT SITE!</h1>
+        <p>Not sure where to get started?Browse popular categories or search below. </p>
+        <input type="text" placeholder="Search for categories or service providers.." >
+    </body>
+    </html>

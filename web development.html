@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Category</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .p {
+            color: rgb(15, 15, 156);
+            margin-top: 30px;
+            font-size: 35px;
+        }
+
+        .box {
+            width: 90%;
+            height: 270px;
+            display: inline-block;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+            margin-left: auto;
+            margin-right: 40px;
+            background-color: #fff;
+            margin-top: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .h {
+            display: block;
+            padding-top: 90px;
+            font-size: 40px;
+            text-decoration: none;
+            color: rgb(8, 8, 218);
+            transition: color 0.3s ease-in-out;
+        }
+
+        .box:hover .h {
+            color: #2c3e50;
+        }
+
+        p {
+            margin-top: 10px;
+            color: rgb(158, 158, 248);
+            font-size: 14px;
+        }
+
+        @media only screen and (min-width: 600px) {
+            /* Tablet styles */
+            .box {
+                width: 45%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* Laptop styles */
+            .box {
+                width: 30%;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) {
+            /* Desktop styles */
+            .box {
+                width: 23%;
+            }
+        }
+
+        @media only screen and (max-width: 599px) {
+            /* Phone styles */
+            .box {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p class="p">AVAILABLE COURSES</p>
+    <div class="box">
+       <!-- <a class="h" href="html%20category.html">🌐 HTML</a> -->
+        <a class= "h" href="html%20category.html"><img style="margin-top: 20px; margin-right: 10px;" src="assets\html.jpg" width="40px" height="40px"> HTML</a>
+        <p>TAUGHT BY: MUMBA CHIKUMBI.</p>
+    </div>
+    <div class="box">
+        <!--<a class="h" href="css%20course.html">🎨 CSS</a> -->
+        <a class= "h" href="css%20course.html"><img style="margin-top: 20px; margin-right: 10px;" src="assets\css.jpg" width="40px" height="40px"> CSS</a>
+
+        <p>TAUGHT BY: MUMBA CHIKUMBI.</p>
+    </div>
+    <br>
+    <p class="p">COMING SOON</p><br>
+
+    <div class="box">
+     <!--   <a class="h" href="">🚀 JAVASCRIPT</a> -->
+     <a class= "h" href=""><img style="margin-top: 20px; margin-right: 10px;" src="assets\javascript.png" width="40px" height="40px"> JAVASCRIPT </a>
+        <p>TAUGHT BY: </p>
+    </div>
+    <div class="box">
+        <!--<a class="h" href="">💻 PHP</a> -->
+        <a class= "h" href=""><img style="margin-top: 20px; margin-right: 10px;" src="assets\php.jpg" width="40px" height="40px"> PHP </a>
+        <p>TAUGHT BY: </p>
+    </div>
+    <div class="box">
+        <!--<a class="h" href="">🐍 PYTHON</a> -->
+        <a class= "h" href=""><img style="margin-top: 20px; margin-right: 10px;" src="assets\python.jpg" width="40px" height="40px"> PYTHON </a>
+        <p>TAUGHT BY: </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Categories</title>
+    <style>
+        .box {
+            width: 700px;
+            height: 200px;
+            display: block;
+            padding-left: 0px;
+            margin-left: 200px;
+            background-color: rgb(221, 221, 252);
+            font-weight: bolder;
+        }
+
+        .box:hover {
+            background-color: rgb(143, 143, 190);
+            transition: 2s;
+        }
+
+        .pp {
+            font-size: 30px;
+            padding-right: 80px;
+            float: right;
+            text-decoration: none;
+            margin-top: 75px;
+            color: black;
+        }
+
+        .pp:hover {
+            color: blue;
+        }
+
+        input[type="search"] {
+            width: 330px;
+            height: 50px;
+            font-size: 17px;
+            border-radius: 100px;
+            margin-left: 200px;
+            padding-left: 20px;
+            border-color: rgb(56, 56, 56);
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <input type="search" placeholder="Search for courses or categories..." oninput="filterCategories(this.value)"><br><br><br>
+    <div class="box" data-category="tailoring">
+        <img src="assets\tailoring.jpg" height="200px" width="400px">
+        <a class="pp" href="assets/tailoring.html">TAILORING</a>
+    </div><br><br>
+    <div class="box" data-category="graphic design">
+        <img src="C:\Users\mumba\Documents\YOUTH SKILLED\Graphic design.jpg" height="200px" width="400px">
+        <a class="pp" href="assets/graphic%20design.html">GRAPHIC<br> DESIGN</a>
+    </div><br><br>
+    <div class="box" data-category="baking">
+        <img src="C:\Users\mumba\Documents\YOUTH SKILLED\Cakes.jpg" height="200px" width="400px">
+        <a class="pp" href="assets/baking.html">BAKING</a>
+    </div><br><br>
+
+    <script>
+        function filterCategories(searchTerm) {
+            searchTerm = searchTerm.toLowerCase();
+            const boxes = document.querySelectorAll('.box');
+
+            boxes.forEach(box => {
+                const category = box.dataset.category.toLowerCase();
+                if (category.includes(searchTerm)) {
+                    box.style.display = 'block';
+                } else {
+                    box.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

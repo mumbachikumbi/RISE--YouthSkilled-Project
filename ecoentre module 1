@@ -1,0 +1,44 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>CSS COURSE</title>
+            <style>
+                   body{
+                background-color:#edf5fd;
+            }
+            .box{
+             width:600px;
+             height:200px;
+             display:block;
+             padding-left:0px;
+             margin-left:200px;
+             box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+             border-radius: 8px;
+             overflow: hidden;
+             transition: transform 0.3s ease-in-out;
+             background-color:white;
+}
+            .box:hover {
+            transform: scale(1.02);
+        }
+            .pp{
+               font-size:30px;
+               float:right;
+               text-decoration:none;
+               margin-top:75px;
+               color:black;
+               padding-right:380px;
+}
+            .p{
+                font-size:20px;
+                padding-left:60px;
+            }
+        </style>
+        </head>
+        <body>
+            <div class="box"><a class="pp" href="file:///C:/Users/mumba/YOUTH%20SKILLED/css%20module%201.html">MODULE 1:</a><br><p class="p">INTRODUCTION TO CSS</p></div><br><br>
+            <div class="box"><a class="pp" href="file:///C:/Users/mumba/YOUTH%20SKILLED/css%20module%202.html">MODULE 2:</a><br><p class="p">SELECTORS</p></div><br><br>
+            <div class="box"><a class="pp" href="">MODULE 3:</a><br><p class="p">WORKING WITH COLORS AND FONTS</p></div><br><br>
+            <div class="box"><a class="pp" href="">MODULE 4</a></div><br><br>
+        </body>
+        </html>

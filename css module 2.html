@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULE 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        h1 {
+            color:rgb(17, 17, 228);
+        }
+        h2{
+            color:black;
+        }
+
+        li {
+            margin-bottom: 15px;
+            color: black;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .icon {
+            margin-right: 5px;
+            color:rgb(8, 8, 218);
+        }
+
+        .example-code {
+            background-color: #ecf0f1; 
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1><i class="fas fa-magic icon"></i>CSS SELECTORS</h1>
+    <h2>Selectors help identify which parts of a webpage you want to style or modify. They act like names or
+        tags for different elements on the webpage.</h2>
+    <ul>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Picking Elements:</strong> Selectors are like names for picking elements
+             on a webpage.</li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Selecting by Type:</strong> Choose all elements of a certain type with simple 
+            names like <code>p</code> for paragraphs. Example: <span class="example-code"><code>p { color: #3498db; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Selecting by Class:</strong> Use classes to pick elements with something in 
+            common. Example: <span class="example-code"><code>.highlight { background-color: #ecf0f1; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Selecting by ID:</strong> IDs are super special names for picking one specific 
+            element. Example: <span class="example-code"><code>#header { font-size: 24px; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Selecting Children:</strong> Pick elements inside others, like selecting bold 
+            text inside paragraphs. Example: <span class="example-code"><code>p strong { font-weight: bold; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Selecting Everything:</strong> Use <code>*</code> to select all elements on 
+            the webpage. Example: <span class="example-code"><code>* { margin: 0; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Selecting Multiple Things:</strong> Pick many elements at once, like titles 
+            and paragraphs. Example: <span class="example-code"><code>h1, p { color: #2980b9; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Combining Selectors:</strong> Combine different selectors for precise picking. 
+            Example: <span class="example-code"><code>header .title { text-align: center; }</code></span></li><br>
+        <li><strong><i class="fas fa-hand-point-right icon"></i>Be Specific:</strong> Clearly instruct by saying, "Select only the big titles." Example: <span class="example-code"><code>h1.big-title { font-size: 36px; }</code></span></li>
+    </ul>
+</body>
+</html>

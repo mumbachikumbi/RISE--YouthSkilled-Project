@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>MODULE 3</title>
+</head>
+<body>
+<ul>
+<li>Now, think of HTML like building blocks for the internet. These building blocks have tags, and tags can wear special badges called attributes.</li>
+ <li>These badges give extra information and are always introduced at the beginning of the tag.</li>
+<li>Imagine you have a link on a webpage. The href attribute in the link's tag is like a magical address book, telling the computer where to find the page that the link leads to.</li>
+ <li>Pictures on a webpage, called images, have a src attribute that's like a treasure map showing where the picture is hidden. </li>
+<li> The width and height attributes of a picture tell you how big it is, and the alt attribute is like a short description in case the picture can't be seen.</li>
+
+<li>Now, let's talk about style – the look and feel of a webpage. The style attribute is like a box of crayons, letting you choose colors, fonts, and sizes to make things visually appealing.</li>
+
+<li>Remember the lang attribute? It's like saying, "Hey, computer, this webpage speaks a particular language!"</li> 
+
+<li>The lang attribute says what language the whole webpage is in. Finally, the title attribute gives a bit more info about something on the webpage.</li>
+<li>Okay, think of a website as a storybook. Now, the big titles at the beginning of a section are like chapter names - they're called headings.</li>
+<li>These headings have different levels, like Chapter 1, Chapter 2, and so on. In website language, we use <h1> for the main heading (like Chapter 1), <h2> for a bit smaller one (like a sub-chapter), and so on.</li>
+
+<li>Now, the regular text in a book is like what we call paragraphs on a website. Each time you press "Enter" on your keyboard, you're making a new paragraph. In website code, we use <p> to say, "Hey, this is a new paragraph." It helps to keep things neat and organized, just like paragraphs in a book. So, headings are like big chapter titles, and paragraphs are like the regular text in a story. Easy, right?</li>
+</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

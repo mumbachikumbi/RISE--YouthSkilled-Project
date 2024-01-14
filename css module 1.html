@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULE 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            color:rgb(8, 8, 218);
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            margin-left: 40px;
+        }
+
+        .icon {
+            margin-right: 5px;
+            color:rgb(8, 8, 218);
+        }
+
+        .spn {
+            font-weight: bolder;
+        }
+
+        hr {
+            border: 1px solid black;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #0f0f9c; 
+        }
+
+        .example-code {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button{
+            margin-left:600px;
+            height:40px;
+            width:140px;
+            background-color:blue;
+            color:white;
+            font-size:15px;
+            border-radius:10px;
+            border:none;
+        }
+        .dvv{
+            width: 90%;
+            height: 210px;
+            display: inline-block;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+            margin-left: auto;
+            margin-right: 40px;
+            background-color: #fff;
+            margin-top: 30px;
+            border-radius: 8px;
+            padding-left:15px;
+        }
+        .dvvv{
+            width: 90%;
+            height: 600px;
+            display: inline-block;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+            margin-left: auto;
+            margin-right: 40px;
+            background-color: #fff;
+            margin-top: 30px;
+            border-radius: 8px;
+            padding-left:15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dvv">
+    <h1>INTRODUCTION TO CSS</h1>
+    <p><i class="far fa-lightbulb icon"></i>CSS stands for Cascading Style Sheets</p>
+    <p><i class="far fa-lightbulb icon"></i>CSS is like a set of instructions that tells the computer how to arrange and show things 
+        on a webpage made with HTML.</p>
+    <p><i class="far fa-lightbulb icon"></i>CSS is helpful because it lets us organize things better. It keeps the rules for how things 
+        look away from the rules for what's on the page. This makes it easier to use the same look for different parts of a webpage.</p>
+        </div>
+        <div class="dvvv">
+    <h1><i class="fas fa-code icon"></i>CSS SYNTAX</h1>
+    <ul>
+        <li><span class="spn">Picking Things:</span>CSS uses selectors to pick things on a webpage. These can be the names of things, special names, or how
+             things relate to each other.</li><br>
+        <li><span class="spn">Look and Feel:</span> CSS controls how things look. You can change colors, sizes, spaces, and more to make things 
+            look nice.</li><br>
+        <li><span class="spn">Instructions:</span>Each thing you pick gets some instructions on how it should look. For example, you can say, "Make this red" or
+             "Make this bigger."</li><br>
+        <li><span class="spn">Brackets:</span>The instructions are put inside curly brackets {}. It's like putting the rules in a box.</li><br>
+        <li><span class="spn">Talking to Many Things:</span> You can talk to many things at once and give them the same instructions. For example, if you want all titles
+             to be blue, you say, "Make all titles blue."</li><br>
+        <li><span class="spn">Hidden Notes:</span> You can leave notes for yourself using /* */. These notes won't show on the webpage, but you can write helpful
+             things for yourself.</li><br>
+        <li><span class="spn">Order Matters:</span> Sometimes, the way you say things matters. If you say something one way and then change it another way, the last
+             way is what the webpage will do.</li><br>
+        <li><span class="spn">Sharing Styles:</span> Sometimes, if something looks a certain way, the things inside it will also look the same. It's like if a big box is blue,
+             the small things inside it might also be blue.</li><br>
+        <li><span class="spn">Types of Numbers:</span> When you say how big or small something is, you can use different types of numbers. Like saying, "Make this 10 big"
+                 or "Make this half as big."</li><br>
+    </ul>
+    <p>Understanding these simple points can help you
+        work with CSS to make things on your website look presentable, neat, and attractive</p>
+        </div>
+    <hr>
+    <h2>Examples:</h2>
+    <ul>
+        <li><i class="fas fa-mouse-pointer icon"></i><strong>Picking Things:</strong> To select all paragraphs in CSS, you use the selector <code>p</code>. For example:
+            <div class="example-code"><code>p { color: #333; font-size: 16px; }</code></div>
+            This will make all paragraphs have a color of dark gray and a font size of 16 pixels.
+        </li>
+
+        <li><i class="fas fa-paint-brush icon"></i><strong>Look and Feel:</strong> Changing the background color of a webpage's body:
+            <div class="example-code"><code>body { background-color: #f7f7f7; /* Light gray background */ }</code></div>
+        </li>
+
+        <li><i class="fas fa-file-code icon"></i><strong>Instructions:</strong> Making a specific paragraph red:
+            <div class="example-code"><code>.red-paragraph { color: red; }</code></div>
+            Apply this class to a paragraph like this: <code>&lt;p class="red-paragraph"&gt;This is a red paragraph&lt;/p&gt;</code>.
+        </li>
+
+        <li><i class="fas fa-brackets icon"></i><strong>Brackets:</strong> Wrapping instructions in brackets:
+            <div class="example-code"><code>h1 { font-size: 24px; }</code></div>
+        </li>
+
+        <li><i class="fas fa-object-group icon"></i><strong>Talking to Many Things:</strong> Making all headings blue:
+            <div class="example-code"><code>h1, h2, h3, h4, h5, h6 { color: blue; }</code></div>
+        </li>
+
+        <li><i class="fas fa-comment icon"></i><strong>Hidden Notes:</strong> Leaving a note for yourself:
+            <div class="example-code"><code>/* This is a comment */ p { line-height: 1.5; }</code></div>
+        </li>
+
+        <li><i class="fas fa-sort-numeric-up-alt icon"></i><strong>Order Matters:</strong> Setting different styles for links:
+            <div class="example-code">
+                <code>a { color: blue; /* Default link color */ }</code>
+                <br>
+                <code>a:hover { color: red; /* Link color on hover */ }</code>
+            </div>
+        </li>
+
+        <li><i class="fas fa-share-alt icon"></i><strong>Sharing Styles:</strong> Making all elements inside a container have the same font:
+            <div class="example-code"><code>.container { font-family: 'Arial', sans-serif; }</code></div>
+        </li>
+
+        <li><i class="fas fa-percentage icon"></i><strong>Types of Numbers:</strong> Specifying different sizes for an element:
+            <div class="example-code">
+                <code>.large-text { font-size: 24px; }</code>
+                <br>
+                <code>.small-text { font-size: 14px; }</code>
+            </div>
+            Apply these classes to elements to control their text size.
+        </li>
+    </ul>
+    <a href="css%20module%202.html"><button>Next Module <i class="fas fa-arrow-right"></i></button></a>
+
+</body>
+</html>

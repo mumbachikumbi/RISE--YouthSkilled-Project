@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MODULE 1</title>
+    </head>
+    <body>
+        <p>"Web developer" is the umbrella term that is used to encompass the wide variety 
+            of skill sets you might have in web development.They are responsible for creating and maintaining websites.</p>
+            <h3>THERE ARE THREE MAIN TYPES OF WEB DEVELOPERS:</h3>
+            <p>Front-end developer-A front end developer works on the client side and they
+                 design the user interfaces that we see on the screen.These are the text and beautiful colors.
+                They primarily use HTML,CSS and Javascript.Taking this course implies taht youre a front end developer!</p>
+            <p>Back-end developer-A back end developer works on the server side to ensure that everything
+                in the system is running smoothly.Backend developers use many languages. However, the primary ones 
+                are Python, PHP, Ruby and Java.</p>
+            <p>Full-stack developer-Full stack devlopers are proficient in both backend and frontend.</p><br>
+                <h5>Others may include Web security developers, Wordpress developers and Mobile web developers</h5><br>
+                <h2>ANY ONE CAN BE A WEB DEVELOPER. FOR THIS REASON THE MARKET HAS GOTTEN COMPETITIVE.
+                    FOR ONE TO BE A SUCCESSFUL WEB DEVELOPER, THEIR ARE PARTICULAR SKILKLS THAT THEY NEED TO POSESS.</h2>
+                    <ol>
+                        <li>Patience</li>
+                        <li>Creativity</li>
+                        <li>Communication</li>
+                        <li>Attention to detail</li>
+                        <li>Logical Thinking</li>
+                    </ol>
+                    <ul>
+                        <li>NOTE THAT THESE ARE SKILLS THAT CAN BE DEVELOPED OVER TIME</li>
+                    </ul>
+                   <a href=""><button>NEXT MODULE</button></a>
+            
+            </body>
+    </html>
